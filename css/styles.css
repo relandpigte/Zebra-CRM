@@ -1,0 +1,32 @@
+.zebracrm-container {
+    max-width: 500px;
+    width: 100%;
+}
+.zebracrm-container .msg {
+    border: 1px solid;
+    padding: 10px;
+    margin-bottom: 15px;
+    display: none;
+}
+.zebracrm-container .msg.success {
+    border-color: #78f260;
+    background-color: #bdf2bd;
+}
+.zebracrm-container .msg.failed {
+    border-color: #f2bdbd;
+    background-color: #f2bdbd;
+}
+.zebracrm-container form {}
+.zebracrm-container form p {}
+.zebracrm-container form p label {
+    display: block;
+}
+.zebracrm-container form p input[type="text"],
+.zebracrm-container form p input[type="email"],
+.zebracrm-container form p input[type="number"],
+.zebracrm-container form p textarea,
+.zebracrm-container form p select {
+    display: block;
+    width: 100%;
+    padding: 5px;
+}
